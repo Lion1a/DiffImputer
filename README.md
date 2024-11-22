@@ -31,4 +31,4 @@ The used datasets are available at:
 ## Usage
 Use the following command to run the main script with configuration options:
 
-* `python main.py --use_cfg --seeds 0 --dataset $dataset`
+* `python aqi_main.py --device 'cuda:0' --val_len 0.1`
