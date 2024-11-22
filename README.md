@@ -22,12 +22,11 @@ Recent versions of the following packages for Python 3 are required:
 All of the datasets we use are publicly available datasets.
 ### Link
 The used datasets are available at:
-* Retail_Rocket https://tianchi.aliyun.com/competition/entrance/231719/information/
-* Alibaba https://github.com/xuehansheng/DualHGCN
-* Amazon https://github.com/YingtongDou/CARE-GNN/tree/master/data
-* YelpChi https://docs.dgl.ai/api/python/dgl.data.html#fraud-dataset
+* GLODAPv2 https://glodap.info/
+* ECMWF https://cds.climate.copernicus.eu/
+* CMEMS https://marine.copernicus.eu/
+* AQI-36 https://github.com/LMZZML/PriSTI
 
-Kindly note that there may be two versions of node features for YelpChi. The old version has a dimension of 100 and the new version is 32. In our paper, the results are reported based on the new features.
 
 ## Usage
 Use the following command to run the main script with configuration options:
